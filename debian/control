@@ -13,6 +13,7 @@ Build-Depends:
     python3-setuptools,
     python3-all-dev,
     dh-python,
+    pybuild-plugin-pyproject,
     cmake,
     pkg-config,
     libcurl-ssl-dev
