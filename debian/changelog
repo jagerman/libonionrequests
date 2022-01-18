@@ -1,3 +1,18 @@
+libonionrequests (0.0.2-1) sid; urgency=medium
+
+  [ Jeff ]
+  * minor fixups
+  * correct readme for docs
+  * GPL3
+
+  [ Jason Rhinelander ]
+  * Make python lib build using cmake
+  * Import libsignal-protocol-c for XEd25519
+  * Move submodule to external
+  * Bump c++ lib version to 0.0.2
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 18 Jan 2022 12:45:20 -0400
+
 libonionrequests (0.0.1-1) sid; urgency=medium
 
   * Initial release.
