@@ -1,3 +1,13 @@
+libonionrequests (0.0.2-1~deb10+1) buster; urgency=medium
+
+  * Add submodule update to drone script
+  * Add more required deps
+  * Remove nlohmann_json & spdlog cmake finding
+  * Buster compilation fix
+  * dh-python random build failure workaround
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 18 Jan 2022 15:02:40 -0400
+
 libonionrequests (0.0.2-1~deb10) buster; urgency=medium
 
   [ Jason Rhinelander ]
