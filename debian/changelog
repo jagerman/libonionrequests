@@ -10,8 +10,11 @@ libonionrequests (0.0.2-1) sid; urgency=medium
   * Import libsignal-protocol-c for XEd25519
   * Move submodule to external
   * Bump c++ lib version to 0.0.2
+  * Add more required deps
+  * Add submodule update to drone script
+  * Fix include
 
- -- Jason Rhinelander <jason@imaginary.ca>  Tue, 18 Jan 2022 12:45:20 -0400
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 18 Jan 2022 13:16:28 -0400
 
 libonionrequests (0.0.1-1) sid; urgency=medium
 
