@@ -1,1 +1,2 @@
 0001-Remove-nlohmann_json-cmake-finding.patch
+0002-Buster-compilation-fix.patch

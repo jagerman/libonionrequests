@@ -1,0 +1,21 @@
+From: Jason Rhinelander <jason@imaginary.ca>
+Date: Tue, 18 Jan 2022 13:45:36 -0400
+Subject: Buster compilation fix
+
+---
+ tests/onionrequest.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/tests/onionrequest.cpp b/tests/onionrequest.cpp
+index 3f063b0..2345954 100644
+--- a/tests/onionrequest.cpp
++++ b/tests/onionrequest.cpp
+@@ -198,7 +198,7 @@ main(int argc, char* argv[])
+   std::string_view user_pubkey =
+       "05fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210";
+ 
+-  std::map<std::string_view, std::string_view> params{{"pubkey", user_pubkey}};
++  nlohmann::json params{{"pubkey", user_pubkey}};
+   sendOnion(nlohmann::json{
+       {"method", "get_snodes_for_pubkey"},
+       {"ephemeral_key", user_pubkey.substr(2)},
