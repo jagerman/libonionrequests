@@ -1,0 +1,33 @@
+From: Jason Rhinelander <jason@imaginary.ca>
+Date: Tue, 18 Jan 2022 13:32:03 -0400
+Subject: Drop nlohmann_json/spdlog from cmake
+
+They don't work properly on buster, but since headers are installed in
+/usr/include and, for buster's version, spdlog is header-only, we can do
+without them entirely and it should still work.
+---
+ CMakeLists.txt | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 3c32404..d8a7fb6 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -40,8 +40,6 @@ pkg_check_modules(OXENMQ liboxenmq IMPORTED_TARGET REQUIRED)
+ pkg_check_modules(SODIUM libsodium IMPORTED_TARGET REQUIRED)
+ pkg_check_modules(CRYPTO libcrypto IMPORTED_TARGET REQUIRED)
+ pkg_check_modules(OXENC liboxenc>=1.0.1 IMPORTED_TARGET REQUIRED)
+-pkg_check_modules(SPDLOG spdlog IMPORTED_TARGET REQUIRED)
+-find_package(nlohmann_json REQUIRED)
+ 
+ add_subdirectory(external/libsignal-protocol-c/src/curve25519)
+ 
+@@ -59,7 +57,7 @@ add_library(onionreq
+   onionreq/signal-xed25519.cpp)
+ 
+ target_compile_options(onionreq PUBLIC -fPIC)
+-target_link_libraries(onionreq PUBLIC PkgConfig::SPDLOG PkgConfig::OXENMQ PkgConfig::SODIUM PkgConfig::CRYPTO nlohmann_json::nlohmann_json)
++target_link_libraries(onionreq PUBLIC PkgConfig::OXENMQ PkgConfig::SODIUM PkgConfig::CRYPTO)
+ target_include_directories(onionreq PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+ 
+ 
