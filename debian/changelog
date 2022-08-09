@@ -1,3 +1,9 @@
+libonionrequests (0.0.2-1~ubuntu2004+2) focal; urgency=medium
+
+  * Focal rebuild
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Mon, 08 Aug 2022 23:57:11 -0300
+
 libonionrequests (0.0.2-1~ubuntu2004+1) focal; urgency=medium
 
   * Add submodule update to drone script
