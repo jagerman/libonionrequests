@@ -1,3 +1,9 @@
+libonionrequests (0.0.2-2~ubuntu2004) focal; urgency=medium
+
+  * focal rebuild
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 18 Oct 2022 18:38:34 -0300
+
 libonionrequests (0.0.2-1~ubuntu2004+2) focal; urgency=medium
 
   * Focal rebuild
