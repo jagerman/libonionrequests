@@ -1,4 +1,10 @@
-libonionrequests (0.0.2-2) sid; urgency=medium
+libonionrequests (0.0.2-2~deb12) bookworm; urgency=medium
+
+  * bookworm build
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 18 Oct 2022 18:35:07 -0300
+
+libonionrequests (0.0.2-2~) sid; urgency=medium
 
   * Rebuild
 
