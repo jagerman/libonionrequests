@@ -1,3 +1,9 @@
+libonionrequests (0.0.2-2~deb11) bullseye; urgency=medium
+
+  * Rebuild
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 18 Oct 2022 18:35:56 -0300
+
 libonionrequests (0.0.2-1~deb11+1) bullseye; urgency=medium
 
   * Add submodule update to drone script
