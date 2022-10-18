@@ -1,3 +1,9 @@
+libonionrequests (0.0.2-2~deb10) buster; urgency=medium
+
+  * Buster rebuild
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 18 Oct 2022 18:36:24 -0300
+
 libonionrequests (0.0.2-1~deb10+1) buster; urgency=medium
 
   * Add submodule update to drone script
