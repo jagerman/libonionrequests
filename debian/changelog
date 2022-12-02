@@ -1,3 +1,10 @@
+libonionrequests (0.0.2-3~deb12) bookworm; urgency=medium
+
+  * Disable armhf build
+  * Rebuild for newer python3.11 builds
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Fri, 02 Dec 2022 14:03:04 -0400
+
 libonionrequests (0.0.2-2~deb12) bookworm; urgency=medium
 
   * bookworm build
