@@ -1,3 +1,10 @@
+libonionrequests (0.0.2-3) sid; urgency=medium
+
+  * Disable armhf build
+  * Rebuild
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Fri, 02 Dec 2022 14:00:15 -0400
+
 libonionrequests (0.0.2-2) sid; urgency=medium
 
   * Rebuild
