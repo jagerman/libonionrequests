@@ -1,3 +1,9 @@
+libonionrequests (0.0.2-2~ubuntu2404) noble; urgency=medium
+
+  * noble build
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 03 Sep 2024 17:30:38 -0300
+
 libonionrequests (0.0.2-2~ubuntu2204) jammy; urgency=medium
 
   * jammy rebuild
