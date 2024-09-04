@@ -1,3 +1,9 @@
+libonionrequests (0.0.2-3~deb13) trixie; urgency=medium
+
+  * rebuild for trixie
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Wed, 04 Sep 2024 15:50:58 -0300
+
 libonionrequests (0.0.2-3) sid; urgency=medium
 
   * Disable armhf build
