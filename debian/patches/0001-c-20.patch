@@ -1,0 +1,21 @@
+From: Jason Rhinelander <jason@imaginary.ca>
+Date: Wed, 4 Sep 2024 12:21:58 -0300
+Subject: c++20
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 3c32404..dcf33a6 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -27,7 +27,7 @@ find_package(PkgConfig REQUIRED)
+ 
+ include(CheckCXXSourceCompiles)
+ include(CheckLibraryExists)
+-set(CMAKE_CXX_STANDARD 17)
++set(CMAKE_CXX_STANDARD 20)
+ set(CMAKE_CXX_STANDARD_REQUIRED ON)
+ set(CMAKE_CXX_EXTENSIONS OFF)
+ 
